@@ -1,0 +1,20 @@
+body { font-family: Inter, system-ui, Arial; background: #f6f9fc; margin:0; padding:20px; color:#102a43 }
+.container { max-width:900px; margin:0 auto; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 24px rgba(16,42,67,0.08) }
+h1{margin-top:0}
+.auth, .dashboard{ margin-top:10px }
+.auth form label, .auth form input, .auth form select { display:block; margin-bottom:8px }
+.auth input, .auth select { padding:8px; width:100%; max-width:400px }
+button { padding:8px 12px; background:#0b66c8; color:white; border:none; border-radius:6px; cursor:pointer }
+button.secondary { background:#eee; color:#0b66c8 }
+button.link { background:transparent; color:#0b66c8; border:none; margin-top:8px }
+.cards { display:flex; gap:12px; flex-wrap:wrap }
+.card { border:1px solid #e6eef8; padding:12px; border-radius:8px; width:250px; background:#f8fbff }
+.card .bio { color:#486581; font-size:0.9em; margin:8px 0 }
+.appts { width:100%; border-collapse:collapse; margin-top:10px }
+.appts th, .appts td { border:1px solid #eef6ff; padding:8px; text-align:left }
+.modal { position:fixed; inset:0; background:rgba(3,15,30,0.4); display:flex; align-items:center; justify-content:center }
+.modal-inner { background:white; padding:16px; border-radius:8px; width:420px; }
+.slots { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px }
+.slot { padding:8px; border-radius:6px; background:#eef6ff; border:1px solid #d0e9ff }
+.slot.active { background:#0b66c8; color:white }
+.container h1 { font-size:1.4rem }
